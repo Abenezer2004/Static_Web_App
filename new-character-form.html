@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Add new character</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav  class="navbar">
+    <h2>Fiction Character Gallery</h2>
+    <ul class="nav-menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="details.html">Details</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="new-character-form.html">Add Character</a></li>
+        </ul>
+    </nav>
+    <!-- Main content -->
+     <div class="container">
+        <!--page header goes here-->
+        <div class="header">
+            <h2>Add a New Character</h2>
+            <p>Use the form below to add a new character to the gallery.</p>
+        </div>
+        <!-- form goes here -->
+         <form class="character-form">
+            <div class ="character name">
+            <label for="name">Character Name:</label>
+            <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class ="Uiniverse">
+            <label for="universe">Universe:</label>
+            <input type="text" id="universe" name="universe" required>
+            </div>
+
+            <div class ="Power">
+            <label for="Power">Power:</label>
+            <input type="text" id="Power" name="Power" required>
+            </div>
+            
+            <div class ="Role">
+            <label for="role">Role:</label>
+            <input type="text" id="role" name="role" required>
+            </div>
+
+            <div class ="image">
+            <label for="image">Image URL:</label>
+            <input type="url" id="image" name="image" required>
+            </div>
+
+            <div class ="short description">
+            <label for="short-description">Short Description:</label>
+            <input type="text" id="short-description" name="short-description" required>
+            </div>
+            <button type="submit" class="btn">Add Character</button>    
+         </form>
+
+</body>
+</html>
