@@ -1,64 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Character Details</title>
-    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- background decoration-->
+     <div class="bg-shape">
+        <div class="shape1"></div>
+        <div class="shape2"></div>
+        <div class="shape3"></div>
+     </div>
+
     <!-- NAVBAR -->
-<nav  class="navbar">
-    <h2>Fiction Character Gallery</h2>
-    <ul class="nav-menu">
+     <nav class="main- navbar">
+        <div class="nav-container">
+            <div class="logo"> Hero Gallery</div>
+            <ul class="nav-menu">
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="details.html">Details</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="new-character-form.html">Add Character</a></li>
         </ul>
-</nav>
-    <!--Main-->
+        </div>
+     </nav>
+
+    <!--Main Content-->
     <div class="container">
+
         <!--Back button-->
         <a href="index.html" class="back-btn">← Back to Gallery</a>
 
-        <!--Character details-->
-        <div class="profile">
+        <!--details header -->
+        <div class="details-header">
+            <div class="badge">Character Details</div>
+            <h2 class="profile-title">All Might</h2>
+            <p class="profile-subtitle">The Symbol of Peace and the former No. 1 Hero</p>
+        </div>
+        
+        <!--char grid-->
+        <div class="profile-grid">
+            <!--Character details-->
+            <div class="profile">
             <!-- LEFT SIDE: Image -->
-            <div class="profile-left">
-                <img src="https://a.storyblok.com/f/178900/1920x1080/0458cfb168/all-might-beaten-up.png/m/filters:quality(95)format(webp)" alt="All Might" class="small-image" width="300px">
+            <div class="image-section">
+                <div class="image-frame">
+                    <img src="https://a.storyblok.com/f/178900/1920x1080/0458cfb168/all-might-beaten-up.png/m/filters:quality(95)format(webp)" alt="All Might" class="small-image" width="300px">
+                </div>
+            
+            <div class="profile-stats">
+                <div class="stat-bar">
+                    <span class="stat-label">Strength</span>
+                    <div class="stat-progress">
+                        <div class="stat-fill" style="width: 95%"></div>                        </div>
+                    </div>
+                <div class="stat-bar">
+                    <span class="stat-label">Speed</span>
+                    <div class="stat-progress"> 
+                        <div class="stat-fill" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="stat-bar">
+                    <span class="stat-label">Intelligence</span>
+                    <div class="stat-progress">
+                        <div class="stat-fill" style="width: 88%"></div>
+                    </div>
+                </div>
+                <div class="stat-bar">
+                    <span class="stat-label">Courage</span>
+                    <div class="stat-progress">
+                        <div class="stat-fill" style="width: 100%"></div>
+                    </div>
+                </div>  
             </div>
+            </div>
+
             <!-- RIGHT SIDE: Details -->
-            <div class="profile-right">
-                <h2>All Might</h2>
-                
-                <h3>Basic Information</h3>
-                    <p><strong>Real Name:</strong> Toshinori Yagi</p>
-                    <p><strong>Hero Name:</strong> All Might</p>
-                    <p><strong>Age:</strong> 40s</p>
-                    <p><strong>Height:</strong> 220cm</p>
-                    <p><strong>Quirk:</strong> One For All</p>
-                    <p><strong>School:</strong> U.A. High School</p>
-                    <p><strong>Role:</strong> No.1 Pro Hero</p>
+            <div class="profile-info">
+                <!-- Basic Info Box -->
+                    <div class="info-box">
+                        <h2 class="section-title">Basic Information</h2>
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <span class="info-label">Real Name:</span>
+                                <span class="info-value">Toshinori Yagi</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Hero Name:</span>
+                                <span class="info-value">All Might</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Age:</span>
+                                <span class="info-value">40s</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Height:</span>
+                                <span class="info-value">220 cm</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Quirk:</span>
+                                <span class="info-value">One For All</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Status:</span>
+                                <span class="info-value">No.1 Pro Hero</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">School:</span>
+                                <span class="info-value">U.A. High School</span>
+                            </div>
+                        </div>
+                </div>
+
 
                 <!-- Backstory -->
                 <div class="info-box">
-                    <h3>Backstory</h3>
-                    <p>All Might, whose real name is Toshinori Yagi, is the former No. 1 Hero and the Symbol of Peace in the world of My Hero Academia. He was born with the Quirk "One For All," which allows him to stockpile and transfer power to others. All Might inherited this Quirk from his predecessor and became a symbol of hope and justice for society.</p>
-                    <p>Throughout his career, All Might fought against villains and protected the innocent, earning him immense respect and admiration. However, due to a severe injury sustained in a battle with his arch-nemesis All For One, All Might's body was severely damaged, limiting his ability to use his powers effectively. Despite this, he continued to serve as a mentor and symbol of hope for aspiring heroes, particularly for Midoriya Izuku (Deku), whom he chose as his successor to inherit One For All.</p>
+                    <h2 class="section-title">Backstory</h2>
+                    <p class="story-text">All Might, whose real name is Toshinori Yagi, is the former No. 1 Hero and the Symbol of Peace in the world of My Hero Academia. He was born with the Quirk "One For All," which allows him to stockpile and transfer power to others. All Might inherited this Quirk from his predecessor and became a symbol of hope and justice for society.</p>
+                    <p class="story-text">Throughout his career, All Might fought against villains and protected the innocent, earning him immense respect and admiration. However, due to a severe injury sustained in a battle with his arch-nemesis All For One, All Might's body was severely damaged, limiting his ability to use his powers effectively. Despite this, he continued to serve as a mentor and symbol of hope for aspiring heroes, particularly for Midoriya Izuku (Deku), whom he chose as his successor to inherit One For All.</p>
                 </div>
 
                 <!-- abilities -->
                 <div class="info-box">
-                    <h3>Abilities</h3>
-                    <p><strong>One For All:</strong> All Might's primary ability is One For All, which allows him to stockpile and transfer power. This Quirk grants him superhuman strength, speed, agility, and durability. However, due to his injury, he can only use a fraction of his full power.</p>
-                    <p><strong>Combat Skills:</strong> All Might is an incredibly skilled hand-to-hand combatant, utilizing his immense strength and speed to overpower opponents. He has developed various fighting techniques and strategies over his career as a hero.</p>                    
+                    <h2 class="section-title">Abilities</h2>
+                    <p class="ability-text"><strong>One For All:</strong> All Might's primary ability is One For All, which allows him to stockpile and transfer power. This Quirk grants him superhuman strength, speed, agility, and durability. However, due to his injury, he can only use a fraction of his full power.</p>
+                    <p class="ability-text"><strong>Combat Skills:</strong> All Might is an incredibly skilled hand-to-hand combatant, utilizing his immense strength and speed to overpower opponents. He has developed various fighting techniques and strategies over his career as a hero.</p>                    
                 </div>
 
                 <!--first appearance and personality-->
                 <div class="info-box">
-                    <h3>First Appearance and Personality</h3>
-                    <p>All Might first appears in Chapter 1 of the My Hero Academia manga and Episode 1 of the anime adaptation.</p>
-
-    </div>    
+                    <h2 class="section-title">First Appearance and Personality</h2>
+                    <p class="personality-text">All Might first appears in Chapter 1 of the My Hero Academia manga and Episode 1 of the anime adaptation.</p>
+                </div>
+            </div>
+    </div>
+    
+    
     <!--quote-->
     <div class="quote-box">
         <p>"I am the symbol of peace and justice in this world."</p>

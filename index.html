@@ -3,89 +3,194 @@
 <html>
 
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fiction Character Gallery</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-<nav  class="navbar">
-    <h2>Fiction Character Gallery</h2>
-    <ul class="nav-menu">
+    <!-- background decoration-->
+     <div class="bg-shape">
+        <div class="shape1"></div>
+        <div class="shape2"></div>
+        <div class="shape3"></div>
+     </div>
+    <!-- NAVBAR -->
+     <nav class="main- navbar">
+        <div class="nav-container">
+            <div class="logo"> Hero Gallery</div>
+            <ul class="nav-menu">
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="details.html">Details</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="new-character-form.html">Add Character</a></li>
         </ul>
-</nav>
+        </div>
+     </nav>
+    
  <!-- MAIN CONTENT -->
  <div class="container">
+
     <!--page title goes here -->
     <div class="header">
-        <h2>Characters from My Hero Academia</h2>
-        <p>this are some of my favorite characters from this work of fiction</p>
+        <header>
+            <h1 class="title">Characters from My Hero Academia</h1>
+            <p class="subtitle">this are some of my favorite characters from this work of fiction.</p>
+        </header>
+    </div>    
+
+    <!-- search bar -->
+    <div class="search-section">
+        <div class="search-bar">
+            <input type="text" placeholder="Search characters by name or role ...">
+            <button>Search</button>
+        </div> 
     </div>
+
+    
     <!-- character cards go here -->
-    <div class="card">
+    <div class="card--grid">
+
         <!--card 1-->
-        <div class="card1-content">
-            <h3>All Might</h3>
-            <p>All Might is the Symbol of Peace and the former No. 1 Hero. He is known for his incredible strength and unwavering dedication to protecting others.</p>
-            <p><strong>Universe:</strong> My Hero Academia</p>
-            <p><strong>Quirk:</strong> One For All</p>
-            <p><strong>Role:</strong> former No. 1 Hero</p>
-            <p><strong>Power:</strong> 5/5</p>
-            <a href="details.html" class="btn">View Details</a>
-
-            <img src="images/AllMight.jpg" alt="All Might" class="card-image">
+        <div class="card1 ">
+            <div class="card1-content">
+                <h3 class="char-name">All Might</h3>
+                <div class="info-row">
+                    <p class="char-description">All Might is the Symbol of Peace and the former No. 1 Hero. He is known for his incredible strength and unwavering dedication to protecting others.</p>
+                        <div class="info-row">
+                            <span class="label">Universe:</span>
+                            <span class="value">My Hero Academia</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Quirk:</span>
+                            <span class="value">One For All</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Role:</span>
+                            <span class="value">Symbol of Peace</span>
+                        </div>
+                <div class="details-link">
+                <a href="details.html" class="btn">View Details</a>
+                </div>
+                <div class="card image">
+                <img src="images/AllMight.jpg" alt="All Might" class="card-image">
+                </div>  
+            </div>
+              
         </div>
+
+
         <!--card 2-->
-        <div class="card2-content">
-            <h3>Midoriya Izuku (Deku)</h3>
-            <p>Midoriya Izuku, also known as Deku, is the main protagonist of My Hero Academia. He starts out as a powerless boy who dreams of becoming a hero, and eventually inherits the One For All power.</p>
-            <p><strong>Universe:</strong> My Hero Academia</p>
-            <p><strong>Quirk:</strong> One For All</p>
-            <p><strong>Role:</strong> Main Protagonist</p>
-            <p><strong>Power:</strong> 5/5</p>
-            <a href="details.html" class="btn">View Details</a>
-
-            <img src="images/MidoriyaIzuku.jpg" alt="Midoriya Izuku (Deku)" class="card-image">
+        <div class="card2">
+            <div class="card2-content">
+                <h3 class="char-name">Midoriya Izuku (Deku)</h3>
+                <div class="info-row">
+                    <p class="char-description">Midoriya Izuku, also known as Deku, is the main protagonist of My Hero Academia. He starts out as a powerless boy who dreams of becoming a hero, and eventually inherits the One For All power.</p>
+                    <div class="info-row">
+                            <span class="label">Universe:</span>
+                            <span class="value">My Hero Academia</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Quirk:</span>
+                            <span class="value">One For All</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Role:</span>
+                            <span class="value">Main Protagonist</span>
+                        </div>
+                <div class="details-link">
+                <a href="details.html" class="btn">View Details</a>
+                </div>
+                <div class="card image">
+                <img src="images/MidoriyaIzuku.jpg" alt="Midoriya Izuku (Deku)" class="card-image">
+                </div>
+            </div>        
         </div>
+
+
+
         <!--card 3-->
-        <div class="card3-content">
-            <h3>Endevor</h3>
-            <p>Endevor is one of the main heros that is known for his incredible fire power.</p>
-            <p><strong>Universe:</strong> My Hero Academia</p>
-            <p><strong>Quirk:</strong> Hellflame</p>
-            <p><strong>Role:</strong> No. 1 Hero</p>
-            <p><strong>Power:</strong> 5/5</p>
-            <a href="details.html" class="btn">View Details</a>
-
-            <img src="images/Endevor.jpg" alt="Endevor" class="card-image">
+        <div class="card3">
+            <div class="card3-content">
+                <h3 class="char-name">Endevor</h3>
+                <div class="info-row">
+                    <p class="char-description">>Endevor is one of the main heros that is known for his incredible fire power.</p>
+                        <div class="info-row">
+                            <span class="label">Universe:</span>
+                            <span class="value">My Hero Academia</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Quirk:</span>
+                            <span class="value">Hellflame</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Role:</span>
+                            <span class="value">No. 1 Hero</span>
+                        </div>
+                <div class="details-link">
+                <a href="details.html" class="btn">View Details</a>
+                </div>
+                <div class="card image">
+                <img src="images/Endevor.jpg" alt="Endevor" class="card-image">
+                </div>  
+            </div>
         </div>
-        <div class="card4-content">
-            <h3> Hawks</h3>
-            <p>Hawks is a hero known for his ability to fly and his sharp eyesight.</p>
-            <p><strong>Universe:</strong> My Hero Academia</p>
-            <p><strong>Quirk:</strong> Hawks</p>
-            <p><strong>Role:</strong> Hero</p>
-            <p><strong>Power:</strong> 4/5</p>
-            <a href="details.html" class="btn">View Details</a>
 
-            <img src="images/Hawks.jpg" alt="Hawks" class="card-image">
+
+
+        <!--card 4-->
+        <div class="card4">
+            <div class="card4-content">
+                <h3 class="char-name">Hawks</h3>
+                <div class="info-row">
+                    <p class="char-description"></p>Hawks is a hero known for his ability to fly and his sharp eyesight.</p>
+                        <div class="info-row">
+                            <span class="label">Universe:</span>
+                            <span class="value">My Hero Academia</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Quirk:</span>
+                            <span class="value">Hawks</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Role:</span>
+                            <span class="value">Hero</span>
+                        </div>
+                <div class="details-link">
+                <a href="details.html" class="btn">View Details</a>
+                </div>
+                <div class="card image">
+                <img src="images/Hawks.jpg" alt="Hawks" class="card-image">
+                </div>  
         </div>
-        <div class="card5-content">
-            <h3>Toya </h3>
-            <p>Toya is a villain in My Hero Academia who is known for his ability to have blue flames.</p>
-            <p><strong>Universe:</strong> My Hero Academia</p>
-            <p><strong>Quirk:</strong> Blue Flames</p>
-            <p><strong>Role:</strong> Villain</p>
-            <p><strong>Power:</strong> 4/5</p>
-            <a href="details.html" class="btn">View Details</a>
-
-            <img src="images/AllForOne.jpg" alt="All For One" class="card-image">
 
 
-
+        <!--card 5-->
+        <div class="card5">
+            <div class="card5-content">
+                <h3 class="char-name">Toya</h3>
+                <div class="info-row">
+                    <p class="char-description">Toya is a villain in My Hero Academia who is known for his ability to have blue flames  .</p>
+                        <div class="info-row">
+                            <span class="label">Universe:</span>
+                            <span class="value">My Hero Academia</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Quirk:</span>
+                            <span class="value">Blue Flames</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Role:</span>
+                            <span class="value">Villain</span>
+                        </div>
+                <div class="details-link">
+                <a href="details.html" class="btn">View Details</a>
+                </div>
+                <div class="card image">
+                <img src="images/Toya.jpg" alt="Toya" class="card-image">
+                </div>  
+            </div>
     </div>
 </body>
 </html>
